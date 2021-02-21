@@ -1,0 +1,149 @@
+  
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@font-face {
+    font-family: "scots - zero zero";
+    src: url("Fonts/scots - Zero Zero.woff") format("woff"),
+         url("Fonts/scots - Zero Zero.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(74, 74, 74);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.m-hobbies{
+    font-weight:bold;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(40, 40, 41, 0.428);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(41, 40, 40, 0.3)
+}
+
+.main-header {
+    background-color: rgba(61, 55, 55, 0.6);
+    background-image: url("https://wallpapercave.com/wp/wp4892342.jpg");
+    background-blend-mode:multiply;
+    background-size:cover;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.name {
+    text-align: center;
+    font-size: 2em;
+    font-family: "scots - zero zero";
+    font-weight: normal;
+    color: white;
+}
+
+.name-large {
+    font-size: 4em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.simpola-image {
+     height: 150px;
+     width: 142px;
+     border-radius: 1em;
+     margin: 15px;
+     align-self: auto;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 .2em;
+}
+.section-header {
+    font-family: "Varela Round";
+    font-weight: normal;
+    color: rgb(59, 57, 57);
+    text-align: center;
+    font-size: 2.1em;
+}
+
+.block1{
+    background-color: rgba(206, 203, 203, 0.292);
+    border-radius: .3rem;
+}
+
+.about-image {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 10%;
+}
+
+.main-footer {
+    background-image: url("https://images.wallpapersden.com/image/download/pewdiepie-art_bGpqZmaUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    color: rgb(230, 230, 230);
+    padding: .25em;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .2em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
